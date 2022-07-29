@@ -7,7 +7,7 @@ app.use(express.static(__dirname + "/public/"))
 app.use('assets/', serveIndex(__dirname + '/assets/'))
 
 app.get("/github", (request, response) => {
-  response.redirect("https://github.com/bentettmar")
+  response.redirect("https://github.com/eriside")
 })
 
 app.get("*", (request, response) => {
